@@ -4,10 +4,9 @@ namespace Github.Leandro.UseCases
 {
     public class GetHealthCheckUseCase : IGetHealthCheckUseCase
     {
-        public  Task <Boolean> Execute()
+        public Task<Boolean> Execute()
         {
-          return Task.FromResult(true);
+            return Task.FromResult(true);
         }
-        
     }
-} 
+}
